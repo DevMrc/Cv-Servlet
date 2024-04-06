@@ -1,89 +1,42 @@
-* {
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header p {
+    font-style: italic;
+}
+
+.contato {
+    list-style: none;
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
-body{
-    margin: auto;
+.contato li {
+    display: inline-block;
+    margin-right: 10px;
 }
 
-h1{
-    text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
-
-}
-
-.email{
-    text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
-    margin-top: 5px;
-}
-
-img{
-    align-items: center;
-}
-
-.redes{
+.contato li a {
+    color: #333;
     text-decoration: none;
-    text-align: center;
-    color: black;
-}
-
-.container2{
-    font-family:Arial, Helvetica, sans-serif;
-
-}
-
-.container2>h2{
-    text-align: center;
-    margin-top: 10px;
-    background-color: lightgray;
-}
-
-.container2>ul{
-    font-size: 14px;
-    text-align: center;
-    margin-bottom: 7px;
-}
-
-.prof1{
-    margin-top: 15px;
-    text-align: justify;
-}
-
-.ct{
-    background-color: lightgray;
-    text-align: center;
-}
-
-.tec{
-    text-align: center;
-    text-decoration: none;
-    margin-top: 10px;
-}
-
-.redes {
-    margin-top: 20px;
-}
-
-.social-link {
-    margin: 0 10px;
-    font-size: 24px;
-    color: #030303;
-    text-decoration: none;
-}
-
-.social-link:hover {
-    color: #007bff;
-}
-
-img{
-    width: 300px;
-    height: 300px;
-    margin-left: 520px;
-}
-
-.github{
-    color: #000;
 }
